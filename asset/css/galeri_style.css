@@ -1,0 +1,190 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+/* ini adalah variabel */
+:root {
+  --main-color-1: blue;
+  --main-color-2: rgb(236, 163, 26);
+  --bg-color-text1: aqua;
+  --bg-color-text2: rgb(223, 192, 17);
+}
+
+.Aloe {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-1);
+  border-radius: 10px;
+}
+.Aloe img {
+  height: 150px;
+  width: 150px;
+}
+.detail1 {
+  text-align: center;
+  background-color: var(--bg-color-text1);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.Amaryllis {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-1);
+  border-radius: 10px;
+  position: relative;
+  left: 200px;
+  bottom: 205px;
+}
+.Amaryllis img {
+  height: 150px;
+  width: 150px;
+}
+.detail2 {
+  text-align: center;
+  background-color: var(--bg-color-text1);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.Apple_blossom {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-1);
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+  bottom: 410px;
+}
+.Apple_blossom img {
+  height: 150px;
+  width: 150px;
+}
+.detail3 {
+  text-align: center;
+  background-color: var(--bg-color-text1);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.arborvitae {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-1);
+  border-radius: 10px;
+  position: relative;
+  left: 600px;
+  bottom: 615px;
+}
+.arborvitae img {
+  height: 150px;
+  width: 150px;
+}
+.detail4 {
+  text-align: center;
+  background-color: var(--bg-color-text1);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.butterfly_weed {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-2);
+  border-radius: 10px;
+  position: relative;
+  bottom: 600px;
+}
+.butterfly_weed img {
+  height: 150px;
+  width: 150px;
+}
+.detail5 {
+  text-align: center;
+  background-color: var(--bg-color-text2);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.salvia {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-2);
+  border-radius: 10px;
+  position: relative;
+  left: 200px;
+  bottom: 805px;
+}
+.salvia img {
+  height: 150px;
+  width: 150px;
+}
+.detail6 {
+  text-align: center;
+  background-color: var(--bg-color-text2);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.camellia_pink {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-2);
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+  bottom: 1011px;
+}
+.camellia_pink img {
+  height: 150px;
+  width: 150px;
+}
+.detail7 {
+  text-align: center;
+  background-color: var(--bg-color-text2);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+  line-height: 25px;
+}
+
+.camellia_red {
+  height: 200px;
+  width: 150px;
+  border: 3px solid var(--main-color-2);
+  border-radius: 10px;
+  position: relative;
+  left: 600px;
+  bottom: 1215px;
+}
+.camellia_red img {
+  height: 150px;
+  width: 150px;
+}
+.detail8 {
+  text-align: center;
+  background-color: var(--bg-color-text2);
+  width: 150px;
+  height: 54px;
+  margin-top: -23px;
+}
