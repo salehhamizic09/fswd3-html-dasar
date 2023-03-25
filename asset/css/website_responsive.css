@@ -1,0 +1,124 @@
+/* General styles */
+
+body {
+  background: lightgrey;
+  color: black;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  gap: 15px;
+}
+
+.bagian1 {
+  width: 100%;
+}
+
+/* Navbar styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.4rem;
+  margin: 10px;
+  background-color: white;
+}
+
+/* Header styles */
+
+.header {
+  background-color: lightcyan;
+  height: 100px;
+  text-align: center;
+}
+
+/* Bagian 2 styles */
+
+.bagian2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 80%;
+}
+
+.card-item {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 1em;
+  padding: 1em;
+  width: 20%;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-title,
+.card-text {
+  color: black;
+}
+
+.artikel {
+  flex: 20%;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container-card {
+    flex-direction: row;
+  }
+
+  .card-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 50px;
+  }
+
+  .navbar {
+    height: 40px;
+    font-size: 0.8em;
+  }
+
+  .sub1-title {
+    text-align: center;
+  }
+
+  .container-card {
+    margin-top: 1em;
+    flex-direction: column;
+  }
+
+  .card-item {
+    margin: 0.5em;
+    padding: 0.5em;
+    width: calc((100% - 3em) / 2);
+  }
+
+  .artikel {
+    flex: 100%;
+  }
+}
